@@ -1,4 +1,5 @@
 'use client';
+import React from "react";;
 
 const variants = {
     primary: "border-blue_gray-100 border-[3px] border-solid"
@@ -41,4 +42,5 @@ const CheckBox = React.forwardRef<HTMLInputElement, CheckboxProps> (({
             </div>
         </>
     )
-})
+});
+export {CheckBox};
