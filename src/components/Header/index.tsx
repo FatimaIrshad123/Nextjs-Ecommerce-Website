@@ -20,7 +20,7 @@ export default function Header({...props}: Props){
                     <Img src="img_header_logo.png" width={112} height={36} alt="Header Logo" 
                     className="h-[36px] w-[112px] self-end object-contain md:self-auto"/>
                     <Input color="white_A700" size="xs"
-                    variant="fill" shape="square" name="Search Field" placeholder={'Search here'} value={searchBarValue} onChange={(e) => setSearchBarValue(e.target.value)}
+                    variant="fill" shape="square" name="Search Field" placeholder={'Search here'} value={searchBarValue} onChange={(e:any) => setSearchBarValue(e.target.value)}
                     suffix={
                         <div className="flex h-[48px] w-[48px] items-center justify-center bg-gray-800">
                             {searchBarValue?.length > 0 ? (
