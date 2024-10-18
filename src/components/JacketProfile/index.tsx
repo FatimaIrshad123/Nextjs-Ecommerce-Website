@@ -7,7 +7,7 @@ interface Props {
     jacketDescription?: React.ReactNode;
 }
 
-export default function JacketCollection({
+export default function JacketProfile({
     jacketImage = "img_sweater_gray_800.svg",
     jacketDescription = "Jacket",
     ...props
