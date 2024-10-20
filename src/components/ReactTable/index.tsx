@@ -6,7 +6,7 @@ import {flexRender, getCoreRowModel, useReactTable, getSortedRowModel} from "@ta
 
 type ReactTableProps<D extends unknown> = {
     data: D[];
-    colums: ColumnDef<D, string>[];
+    columns: ColumnDef<D, string>[];
     headerProps?: {};
     headerCellProps?: {};
     bodyProps?: {};

@@ -1,4 +1,5 @@
 'use client';
+import React from "react";
 
 const shapes = {
     square: "rounded-[0px]"
